@@ -1,1 +1,14 @@
 pip install shapely
+pip install shapely.geometry
+pip install pandas
+pip install numpy
+pip install folium
+pip install streamli_folium
+pip install geopandas
+pip install geopy
+pip install geopy.geocoders
+pip install geopy.extra.rate_limiter
+pip install shapely.geometry
+pip install matplotlib.pyplot
+pip install matplotlib
+pip install math
