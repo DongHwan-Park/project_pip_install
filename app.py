@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import plotly.express as px
+# import plotly.express as px
 from shapely.geometry import Point, Polygon
 import folium
 from streamlit_folium import st_folium
@@ -101,7 +101,7 @@ with tab1:
         m=['기존월세가격','예측월세가격']
         n=[int(tmp['기존월세가격'][i]),int(tmp['예측월세가격'][i])]
         price=pd.DataFrame({'구분':m,'가격':n})
-        fig = px.bar(price, x='구분', y='가격',text_auto=True, width=400, height=400) # text_auto=True 값 표시 여부, title='제목'
+#         fig = px.bar(price, x='구분', y='가격',text_auto=True, width=400, height=400) # text_auto=True 값 표시 여부, title='제목'
         a1,a2,a3=st.columns(3)
         with a1:
             st.markdown('**가격비교 차트**')
